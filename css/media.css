@@ -1,0 +1,277 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+    .menu ul li a {
+        font-size: 18px;
+        text-align: end;
+    }
+
+    .menu ul li:last-child a {
+        margin-right: 20px;
+    }
+
+    .slide-img img {
+        display: none;
+    }
+
+    .slide-text {
+        text-align: center;
+    }
+
+    .slide-text h3 {
+        font-size: 16px;
+        margin: 12px 0;
+        max-width: none;
+    }
+
+    .slide-text p {
+        font-size: 15px;
+    }
+
+    .future_heading h1 {
+        font-size: 28px;
+    }
+
+    .future_heading p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .future_item {
+        text-align: center;
+    }
+
+    .cus-border {
+        margin: 0px 20px 10px;
+        padding: 30px;
+    }
+
+    .py-5 {
+        padding-top: 0 !important;
+        padding-bottom: 20px !important;
+    }
+
+    .future_item i {
+        margin-bottom: 15px;
+    }
+
+    .contact-us-mail button {
+        margin-top: 12px;
+    }
+
+    .link-sec-content {
+        text-align: center;
+    }
+
+    .contact-us-heading h1 {
+        font-size: 25px;
+    }
+
+    .contact-us-heading p {
+        font-size: 14px;
+    }
+
+    .contact-us-mail {
+        margin-bottom: 0;
+    }
+
+    .btn_cus {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link-content a i {
+        font-size: 21px;
+        padding: 6px;
+    }
+
+    .link-content {
+        margin: 30px 0px 45px;
+    }
+
+    .cus_w a {
+        width: 0 !important;
+    }
+
+    .link-sec-content span {
+        font-size: 15px;
+    }
+
+    .cus_p {
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .link-sec-content {
+        margin: 0 5px;
+    }
+
+    .link-sec-content span {
+        font-size: 14px;
+    }
+
+    .link-sec-content a {
+        text-align: center;
+        margin-left: 0px;
+        margin: 0 0px;
+        font-size: 14px;
+    }
+
+    .link-sec {
+        padding-bottom: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .menu ul li a {
+        font-size: 18px;
+        text-align: end;
+    }
+
+    .menu ul li:last-child a {
+        margin-right: 20px;
+    }
+
+    .slide-text {
+        text-align: center;
+    }
+
+    .slide-img img {
+        display: none;
+    }
+
+    .slide-text h3 {
+        font-size: 17px;
+        max-width: none;
+    }
+
+    .slide-text p {
+        font-size: 14px;
+    }
+
+    .future_item h2 {
+        font-size: 17px;
+        margin: 8px 0 12px;
+    }
+
+    .future_item p {
+        padding: 0 10px;
+    }
+
+    .future_heading p {
+        font-size: 18px;
+    }
+
+    .cus-border {
+        margin: 10px 0px;
+    }
+
+    /* contact us */
+    .contact-us-heading h1 {
+        font-size: 30px;
+    }
+
+    .contact-us-heading p {
+        font-size: 14px;
+    }
+
+    .btn_cus {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-us-mail button {
+        margin-top: 20px;
+    }
+
+    .link-content a i {
+        font-size: 21px;
+        padding: 9px;
+    }
+
+    .link-sec-content {
+        text-align: center;
+    }
+
+    .cus_p {
+        margin-bottom: 30px;
+    }
+
+    .link-sec {
+        padding-bottom: 45px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+    .slide-text h3 {
+        font-size: 17px;
+        margin: 11px 0;
+    }
+
+    .future_heading p {
+        font-size: 17px;
+        color: #555555;
+    }
+
+    .future_item p {
+        font-size: 16px;
+    }
+
+    .btn_cus {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-us-mail button {
+        margin-top: 20px;
+    }
+
+    .link-sec-content {
+        text-align: center;
+    }
+
+    .link-sec {
+        padding-bottom: 45px;
+    }
+
+    .link-sec-content span {
+        font-size: 19px;
+    }
+
+    .cus_p {
+        margin-bottom: 30px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {
+    .cus-border:hover {
+        box-shadow: none;
+        border-radius: 0;
+        transition: 0;
+    }
+
+    .cus-border {
+        text-align: start;
+    }
+
+    .future_item p {
+        font-size: 16px;
+    }
+
+    .link-sec-content a {
+        margin-left: 22px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1399px) {
+    .contact-us-heading p {
+        font-size: 14px;
+    }
+
+    .link-sec-content a {
+        margin-left: 22px;
+    }
+}
